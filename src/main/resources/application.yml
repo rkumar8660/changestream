@@ -1,0 +1,10 @@
+#spring:
+#  data:
+#    mongodb:
+#      uri: "mongodb://${MONGO_USERNAME}:${MONGO_PASSWORD}@${MONGO_HOST:localhost}:${MONGO_PORT:27017}/${MONGO_DB_NAME:changestream}?authMechanism=SCRAM-SHA-256&authSource=admin"
+#spring:
+#  data:
+#    mongodb:
+#      uri: "mongodb://root:root@localhost:27017/changestream?replicaSet=rs0"
+
+spring.data.mongodb.uri=mongodb://root:root@localhost:27017/changestream?replicaSet=rs0
